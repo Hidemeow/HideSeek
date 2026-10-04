@@ -7,7 +7,7 @@ void main() {
   
   // 初始化後端連線
   // 本地測試填入本機埠口，部署後再替換成外網網址 (如 https://xxx.onrender.com)
-  SocketService().init("http://localhost:3000");
+  SocketService().init("https://hideseek.onrender.com");
 
   runApp(const MaterialApp(
     title: 'HideSeek',
